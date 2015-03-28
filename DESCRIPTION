@@ -1,0 +1,11 @@
+Package: BigData
+Version: 0.1.0
+Date: 2015-03-27
+Title: BigData
+Authors: c(person("Jeffrey A. Thompson",
+    "Developer",
+    email = "..."))
+Author: Jeffrey A. Thompson
+Maintainer: Jeffrey A. Thompson <jeffrey.a.thompson.gr@dartmouth.edu>
+Description: Utilities for managing big data.
+License: BSD 3 Clause
