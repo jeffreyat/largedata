@@ -1,7 +1,7 @@
-Package: BigData
+Package: largedata
 Version: 0.1.0
 Date: 2015-03-27
-Title: BigData
+Title: largedata
 Authors: c(person("Jeffrey A. Thompson",
     "Developer",
     email = "..."))
