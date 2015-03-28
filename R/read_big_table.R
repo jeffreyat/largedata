@@ -1,4 +1,4 @@
-#' Reads a text files into a data.frame faster than read.table for big files.
+#' Reads a text file into a data.frame faster than read.table for big files.
 #' 
 #' This function reads a file into an SQLite database temporarily, returns it
 #' to a data.frame, and then unloads the database. This is many times faster than
