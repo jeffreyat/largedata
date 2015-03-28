@@ -9,3 +9,4 @@ Author: Jeffrey A. Thompson
 Maintainer: Jeffrey A. Thompson <jeffrey.a.thompson.gr@dartmouth.edu>
 Description: Utilities for managing big data.
 License: BSD 3 Clause
+Depends: sqldf
