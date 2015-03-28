@@ -18,6 +18,6 @@ read_big_table <- function(filename, header=F, row.names=F, sep='\t', stringsAsF
 	fp <- file(filename)
 	big_table <- sqldf("select * from fp", dbname=tempfile(), 
 			file.format=list(header=header, row.names=row.names, 
-					sep=sep, stringsAsFactors=stringsAsFactors, drv = "SQLite"))
+					sep=sep, drv = getOption("SQLite")))
 	return(big_table)
 }

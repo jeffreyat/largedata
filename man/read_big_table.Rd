@@ -22,7 +22,7 @@ read_big_table(filename, header = F, row.names = F, sep = "\\t",
 A data.frame with the contents of a tabular file.
 }
 \description{
-Reads a text files into a data.frame faster than read.table for big files.
+Reads a text file into a data.frame faster than read.table for big files.
 }
 \details{
 This function reads a file into an SQLite database temporarily, returns it
